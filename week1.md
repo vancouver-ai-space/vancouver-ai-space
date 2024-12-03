@@ -16,7 +16,8 @@ Everything you do earns points toward your Certificate of Completion (and braggi
 ## :star2: Tuesday (15 mins)
 1. **Post on LinkedIn or Twitter (+5 bonus points):**  
    Let the world know you’re working on something exciting! Then share it on #general channel
-   **Example on Twitter:**   
+   
+**Example on Twitter:**   
 > “Excited to start my journey with @VanAISpace to work on my AI idea over the next six weeks! #AI #Innovation”
 
 2. **Announce Your Intention & Accomplishments (+5 points):**  
