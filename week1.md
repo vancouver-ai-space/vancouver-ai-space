@@ -3,9 +3,8 @@
 We’re off to an amazing start. It’s cool to see all of you diving in with energy and creativity. I am confident every one of you can build something awesome and impactful.
 
 ### This Week's Focus: **Create your AI Idea Slide**.
-- Use these templates to create a simple, clear 2-slide idea: 
+- Use this templates to create a simple, clear 2-slide idea: 
   - [Google Slides Template](https://docs.google.com/presentation/d/1EZI1ySWCyCMXCi3KaqdMxs5I3ftKpQtLtuGKdctFhhs/edit?usp=sharing)
-  - [Canva Template](https://www.canva.com/design/DAGYFTaIziU/WldJKTdZnWYTRYCBUEnTkw/view?utm_content=DAGYFTaIziU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview)
 
 - See below for daily steps you can take this week. 
    - If some steps seem counterintuitive that's okay - trust the process.
@@ -15,7 +14,7 @@ Everything you do earns points toward your Certificate of Completion (and braggi
 - You need **70 points to pass** (out of 100).  
 - **Bonus points** are for recommended but optional items!
 
-## :star2: Tuesday
+## :star2: Tuesday (15 mins)
 1. **Post on LinkedIn or Twitter (+5 bonus points):**  
    Let the world know you’re working on something exciting!  
    **Example on Twitter:**   
@@ -35,29 +34,28 @@ Everything you do earns points toward your Certificate of Completion (and braggi
    - Idea 2: An AI-powered plant care assistant that tells you when your plants need water or sunlight.  
    - Idea 3: A personalized AI tutor for kids learning math in fun, interactive ways.
 ---
-## :blue_book: Wednesday
-1. **Attend Lecture 1 (7–8 PM) (+5 bonus points):**  
+## :blue_book: Wednesday (1 hour)
+1. **Attend Lecture 1 (7–8 PM):**  
    [Luma Link](https://lu.ma/nnqmw2ds)  
    Bring your ideas to the session! The goal is to refine them with input from the instructor and your peers.  
    **Example:**  
 > “I’m thinking about building an AI app for productivity. Any tips to make it unique?”
 ---
-## :mag: Thursday
-1. **Join Lab 1 (7–8 PM) (+5 bonus points):**  
+## :mag: Thursday (1 hour)
+1. **Join Lab 1 (7–8 PM):**  
    [Luma Link](https://lu.ma/t3aehu18)  
    This is where you can workshop your ideas and get hands-on support. Don’t hold back—ask questions and get feedback!  
    **Example:**  
 > “I’m stuck on how my AI app would work. Should it be voice-controlled or use a chatbot? Help!”
 ---
-## :rocket: Friday
+## :rocket: Friday (1 hour)
 1. **Create Your AI Idea Slide (+40 points):**  
-   Use these templates to create a simple, clear 2-slide idea:  
+   Use this template to create a simple, clear 2-slide idea:  
   - [Google Slides Template](https://docs.google.com/presentation/d/1EZI1ySWCyCMXCi3KaqdMxs5I3ftKpQtLtuGKdctFhhs/edit?usp=sharing)
-  - [Canva Template](https://www.canva.com/design/DAGYFTaIziU/WldJKTdZnWYTRYCBUEnTkw/view?utm_content=DAGYFTaIziU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview)
 
    Save your slide as a PDF and share it in two places:  
    - Discord **#week-1 channel**; and  
-   - LinkedIn (or Twitter) with a short post about your idea.  
+   - LinkedIn (or Twitter) with a short post about your idea. (+10 Bonus Points) 
    **Example:**  
 > Discord: “Here’s my idea slide! Excited to hear your feedback. :rocket:”  
 > LinkedIn: “Just finished my first AI project idea slide! :rocket: It’s all about using AI to make learning fun and engaging for students. #AI @VanAISpace”
@@ -67,7 +65,7 @@ Everything you do earns points toward your Certificate of Completion (and braggi
    Hang out with the crew, eat good food, and play some games.  
    **Link:** [Luma Link](https://lu.ma/7edi2eax)
 ---
-## :speech_balloon: Sunday
+## :speech_balloon: Sunday (30 mins)
 1. **Give Feedback (+35 points):**  
    Comment on 3–5 posts in the #week-1 Discord channel to support your peers!  
    **Example:**  
