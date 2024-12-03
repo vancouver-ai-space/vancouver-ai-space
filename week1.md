@@ -15,7 +15,7 @@ Everything you do earns points toward your Certificate of Completion (and braggi
 
 ## :star2: Tuesday (15 mins)
 1. **Post on LinkedIn or Twitter (+5 bonus points):**  
-   Let the world know you’re working on something exciting! Then share it on #general channel
+   Let the world know you’re working on something exciting! Then share the link to your tweet on #general channel
    
 **Example on Twitter:**   
 > “Excited to start my journey with @VanAISpace to work on my AI idea over the next six weeks! #AI #Innovation”
@@ -28,7 +28,9 @@ Everything you do earns points toward your Certificate of Completion (and braggi
  > “I have finished today's steps! :star2:”
 
 3. **Brainstorm Ideas (+20 points):**  
-   Share 2–3 rough ideas in the #project-ideas channel.  
+   Share 2–3 rough ideas in the #project-ideas channel that we can give feedback to. 
+   If you would like to have collaborators just add the tag **(open for collaboration)**
+
    **Example:**  
    - Idea 1: An AI tool that helps students stay focused by playing concentration-boosting music.  
    - Idea 2: An AI-powered plant care assistant that tells you when your plants need water or sunlight.  
