@@ -34,21 +34,21 @@ Everything you do earns points toward your Certificate of Completion (and braggi
    - Idea 1: An AI tool that helps students stay focused by playing concentration-boosting music.  
    - Idea 2: An AI-powered plant care assistant that tells you when your plants need water or sunlight.  
    - Idea 3: A personalized AI tutor for kids learning math in fun, interactive ways.
-  
+---
 ## :blue_book: Wednesday
 1. **Attend Lecture 1 (7–8 PM) (+5 bonus points):**  
    [Luma Link](https://lu.ma/nnqmw2ds)  
    Bring your ideas to the session! The goal is to refine them with input from the instructor and your peers.  
    **Example:**  
 > “I’m thinking about building an AI app for productivity. Any tips to make it unique?”
-
+---
 ## :mag: Thursday
 1. **Join Lab 1 (7–8 PM) (+5 bonus points):**  
    [Luma Link](https://lu.ma/t3aehu18)  
    This is where you can workshop your ideas and get hands-on support. Don’t hold back—ask questions and get feedback!  
    **Example:**  
 > “I’m stuck on how my AI app would work. Should it be voice-controlled or use a chatbot? Help!”
-
+---
 ## :rocket: Friday
 1. **Create Your AI Idea Slide (+40 points):**  
    Use these templates to create a simple, clear 2-slide idea:  
@@ -61,12 +61,12 @@ Everything you do earns points toward your Certificate of Completion (and braggi
    **Example:**  
 > Discord: “Here’s my idea slide! Excited to hear your feedback. :rocket:”  
 > LinkedIn: “Just finished my first AI project idea slide! :rocket: It’s all about using AI to make learning fun and engaging for students. #AI @VanAISpace”
-
+---
 ## :tada: Saturday
 1. **Boardgame + Potluck Night (Optional, but one of the best ways to connect):**  
    Hang out with the crew, eat good food, and play some games.  
    **Link:** [Luma Link](https://lu.ma/7edi2eax)
-
+---
 ## :speech_balloon: Sunday
 1. **Give Feedback (+35 points):**  
    Comment on 3–5 posts in the #week-1 Discord channel to support your peers!  
