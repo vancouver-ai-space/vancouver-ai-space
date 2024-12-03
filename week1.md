@@ -29,12 +29,13 @@ Everything you do earns points toward your Certificate of Completion (and braggi
 
 3. **Brainstorm Ideas (+20 points):**  
    Share 2–3 rough ideas in the #project-ideas channel that we can give feedback to. 
-   If you would like to have collaborators just add the tag **(open for collaboration)**
+
+   If you're open to collaboration, include the tag **(open for collaboration)** to your idea
 
    **Example:**  
-   - Idea 1: An AI tool that helps students stay focused by playing concentration-boosting music.  
-   - Idea 2: An AI-powered plant care assistant that tells you when your plants need water or sunlight.  
-   - Idea 3: A personalized AI tutor for kids learning math in fun, interactive ways.
+   - **Idea 1:** An AI tool that helps students stay focused by playing concentration-boosting music.  
+   - **Idea 2:** An AI-powered plant care assistant that tells you when your plants need water or sunlight.  
+   - **Idea 3:** A personalized AI tutor for kids learning math in fun, interactive ways. (open for collaboration)
 ---
 ## :blue_book: Wednesday (1 hour)
 1. **Attend Lecture 1 (7–8 PM):**  
