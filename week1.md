@@ -49,9 +49,7 @@ Everything you do earns points toward your Certificate of Completion (and braggi
 ---
 ## :rocket: Friday (1 hour)
 1. **Create Your AI Idea Slide (+40 points):**  
-   Use this template to create a simple, clear 2-slide idea:  
-  - [Google Slides Template](https://docs.google.com/presentation/d/1EZI1ySWCyCMXCi3KaqdMxs5I3ftKpQtLtuGKdctFhhs/edit?usp=sharing)
-
+   - Use this 2-slide template for your idea idea: [Google Slides Template](https://docs.google.com/presentation/d/1EZI1ySWCyCMXCi3KaqdMxs5I3ftKpQtLtuGKdctFhhs/edit?usp=sharing)
    Save your slide as a PDF and share it in two places:  
    - Discord **#week-1 channel**; and  
    - LinkedIn (or Twitter) with a short post about your idea. (+10 Bonus Points) 
