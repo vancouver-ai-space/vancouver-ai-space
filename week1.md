@@ -3,12 +3,11 @@
 We’re off to an amazing start. It’s cool to see all of you diving in with energy and creativity. I am confident every one of you can build something awesome and impactful.
 
 ### This Week's Focus: **Create your AI Idea Slide**.
-- Use this templates to create a simple, clear 2-slide idea: 
-  - [Google Slides Template](https://docs.google.com/presentation/d/1EZI1ySWCyCMXCi3KaqdMxs5I3ftKpQtLtuGKdctFhhs/edit?usp=sharing)
+- Use this 2-slide template for your idea idea: [Google Slides Template](https://docs.google.com/presentation/d/1EZI1ySWCyCMXCi3KaqdMxs5I3ftKpQtLtuGKdctFhhs/edit?usp=sharing)
 
 - See below for daily steps you can take this week. 
-   - If some steps seem counterintuitive that's okay - trust the process.
-   - These are some best practices I acquired over the 10 years of experience working in research labs and industries.
+   - If some steps seem counterintuitive that's okay - please trust the process.
+   - These are some of the best practices I acquired over the 10 years of experience working in research labs and industries.
 
 Everything you do earns points toward your Certificate of Completion (and bragging rights :trophy:).  
 - You need **70 points to pass** (out of 100).  
