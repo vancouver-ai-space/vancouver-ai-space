@@ -1,0 +1,679 @@
+<html><head>
+    <title>VAN AI SPACE 2024</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+h2 {
+    font-size: 1.3em;
+}
+body {
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto 2em auto;
+    padding-top: 80px;
+}
+
+#announcements {
+    background-color: #ffe3e3;
+    padding: 1%;
+    margin: 1%;
+}
+
+#toc li {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: none;
+}
+
+#toc li:hover {
+    background-color: #f0e6e6;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+#toc li a, #toc li a:visited {
+    text-decoration: none;
+    color: #800020;
+    font-weight: 600;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+#toc li a:hover {
+    color: #FF8C00;
+}
+
+#sched {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 0.95em;
+}
+
+#sched th, #sched td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd;
+}
+#sched td ul {
+    padding-left: 15px; /* Remove default padding */
+    list-style-position: inside; /* Align bullet points with the text */
+}
+
+#sched td { 
+    padding-left: 1em; 
+    padding-right: 1em; 
+}
+
+#sched #headrow { 
+    background-color: #f5f5f5;
+    border-bottom: 2px solid #800020;
+}
+
+#sched #headrow th { 
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Week separator styling */
+#sched tr.week-separator td {
+    padding: 15px 8px;
+    background-color: #f8f8f8;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 2px solid #800020;
+    color: #800020;
+}
+
+/* Alternating row colors within weeks */
+#sched tr:nth-child(odd):not(.week-separator) { background-color: #fff; }
+#sched tr:nth-child(even):not(.week-separator) { background-color: #f9f9f9; }
+
+/* Special row styling */
+#sched tr.due { background-color: #fff0f0 !important; }
+#sched tr.inf { background-color: #f0f0ff !important; }
+#sched tr.gen { background-color: #f0fff0 !important; }
+#sched tr.can { background-color: #fff0f0 !important; }
+
+/* Hover effect */
+#sched tr:hover:not(#headrow):not(.week-separator) {
+    background-color: #f5f5f5;
+}
+
+#sched tr.ten td { font-style: italic; }
+
+#sched tbody::before { counter-reset(row-num); }
+
+
+/*#sched tr:not(.due):not(.inf):not(.gen):not(.can):not(#headrow)::before {
+sched tr.lec :first-child::before {
+    display: table-cell;
+    counter-increment: row-num;
+    content: counter(row-num);
+    padding-right: 0.3em;
+    text-align: right;
+}
+#sched tr:not(.lec)::before {
+    display: table-cell;
+    content: "";
+}*/
+
+#sched tr:nth-child(odd )     { background-color: #fff; }
+#sched tr:nth-child(even)     { background-color: #eee; }
+#sched tr:nth-child(odd ).due { background-color: #fcc; }
+#sched tr:nth-child(even).due { background-color: #ebb; }
+#sched tr:nth-child(odd ).inf { background-color: #bbf; }
+#sched tr:nth-child(even).inf { background-color: #aae; }
+#sched tr:nth-child(odd ).gen { background-color: #eef; }
+#sched tr:nth-child(even).gen { background-color: #ddf; }
+#sched tr:nth-child(odd ).can { background-color: #efe; }
+#sched tr:nth-child(even).can { background-color: #ded; }
+
+.notes li {
+    display: inline-block;
+    padding-right: 2em;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #F5F5F5;
+    border-bottom: 5px solid #800020;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.header-content {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 1.5em;
+    color: #5a3d1e;
+}
+
+#toc {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+#toc li {
+    display: inline;
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+
+#toc li a, #toc li a:visited {
+    text-decoration: none;
+    color: #5a3d1e;
+    font-weight: 500;
+    font-size: 1em;
+    transition: color 0.2s ease;
+    margin: 0 2px;
+}
+
+#toc li a:hover {
+    color: #8b5e34;
+    background-color: #f0e6e6;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+#toc li a.active {
+    color: #FF8C00;
+    background-color: #f0e6e6;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+section {
+    margin: 2em 0;
+    padding: 1em;
+    border-top: 2px solid #800020; /* Burgundy */
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="assets/ai_space.jpeg" alt="Logo" />
+                <span>Vancouver AI Space 001</span>
+            </div>
+            <ul id="toc">
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#certificate">Certificate</a></li>
+                <li><a href="#prereqs">Registration/Prerequisites</a></li>
+                <li><a href="#resources">Resources</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="schedule">
+        <h2>Schedule</h2>
+        <p>This schedule outlines the weekly structure of this six-week program, including assignment releases, lectures, and labs. </p>
+            
+        <p>Key dates and activities are color-coded for easy reference, with red for due dates, blue for announcements, and green for feedback deadlines.</p>
+        
+        <table id="sched">
+    <thead>
+        <tr id="headrow">
+            <th colspan="2">Date</th>
+            <th>Main Material</th>
+            <th>Bonus Material & Quizzes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="week-separator">
+            <td colspan="4">Week 1: Creating the Idea Slide</td>
+        </tr>
+        <tr class="lec"><th>M </th><th>Dec  2</th><td>
+            <ul>
+                <li><strong>Assignment 1 released:</strong>
+                    <ul>
+                       <li><a href="https://github.com/vancouver-ai-space/vancouver-ai-space.github.io/blob/main/week1.md">Markdown</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </td><td><strong>Quiz 1: Basics of Machine Learning</strong> <a href="https://vancouver-ai-academy.github.io/src/quiz_1.html">Link</a></td></tr>
+        <tr class="lec"><th>M </th><th>Dec  2</th><td>
+            <ul>
+                <li><strong>Kickoff:</strong>
+                    <ul>
+                        <li><strong>RSVP:</strong> <a href="https://www.example.com/rsvp">Lu.ma</a></li>
+                        <li><strong>Watch Recording:</strong> <a href="https://www.youtube.com/watch?v=7TYhdV-G_uI&ab_channel=VancouverAISpace">YouTube</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </td><td></td></tr>
+        <tr class="lec"><th>W </th><th>Dec  4</th><td>
+            <ul>
+                <li><strong>Lecture #1: Cool AI Trends and Ideas</strong>
+                    <ul>
+                        <li><strong>RSVP:</strong> <a href="https://lu.ma/nnqmw2ds">Lu.ma</a></li>
+                        <li><strong>Watch Recording:</strong> <a href="https://www.youtube.com/watch?v=SYqDFlGLguE&ab_channel=VancouverAISpace">YouTube</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </td><td></td></tr>
+        <tr class="lec"><th>Th</th><th>Dec  5</th><td>
+            <ul>
+                <li><strong>Lab #1: Decide on your AI Idea</strong>
+                    <ul>
+                        <li><strong>RSVP:</strong> <a href="https://lu.ma/t3aehu18">Lu.ma</a></li>
+                        <li><strong>Watch Recording:</strong> <a href="https://www.youtube.com/watch?v=87L2yX8u9AM&ab_channel=VancouverAISpace">YouTube</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </td><td></td></tr>
+         <tr  class="lec"><th>Sat</th><th>Dec  7</th>
+            <td colspan="2">
+                <ul>
+                    <li><strong>Socialize & Connect:</strong>
+                        <ul>
+                            <li><strong>RSVP:</strong> <a href="https://lu.ma/7edi2eax">Lu.ma</a></li>
+                            <li><strong>Details:</strong> Boardgame + Potluck Night</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr class="due"><th>Sat</th><th>Dec  7</th>
+            <td colspan="2" style=""><strong>Assignment 1 Due</strong><br>Submit your Idea Slide</td>
+        </tr>
+        <tr class="gen"><th>Sun</th><th>Dec  8</th>
+            <td colspan="2" style=""><strong>Feedback Due</strong><br>Provide feedback on your peers' Idea Slides</td>
+        </tr>
+       
+
+        <tr class="week-separator">
+            <td colspan="4">Week 2: Build Your Toy Example</td>
+        </tr>
+        <tr class="lec"><th>M </th><th>Dec  9</th>
+            <td>
+                <ul>
+                    <li><strong>Assignment 2 released:</strong>
+                        <ul>
+                            <li><a href="https://github.com/vancouver-ai-space/vancouver-ai-space.github.io/blob/main/week1.md">Markdown</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+            <td><strong>Quiz 2: Basics of Transformers</strong> <a href="https://vancouver-ai-academy.github.io/src/quiz_2.html">Link</a></td>
+        </tr>
+        <tr class="lec"><th>W </th><th>Dec 11</th><td>
+            <ul>
+                <li><strong>Lecture #2:  Best Practices for Building AI Toy Examples</strong>
+                    <ul>
+                        <li><strong>RSVP:</strong> <a href="https://lu.ma/i8oy4qwl">Lu.ma</a></li>
+                        <li><strong>Watch Recording:</strong> Coming soon</li>
+                    </ul>
+                </li>
+            </ul>
+        </td><td></td></tr>
+        <tr class="lec"><th>Th</th><th>Dec 12</th><td>
+            <ul>
+                <li><strong>Lab #2: A Hands-on Session to Build your Toy Example</strong>
+                    <ul>
+                        <li><strong>RSVP:</strong> <a href="https://lu.ma/not58ddz">Lu.ma</a></li>
+                        <li><strong>Watch Recording:</strong> Coming soon</li>
+                    </ul>
+                </li>
+            </ul>
+        </td><td></td></tr>
+        <tr class="due"><th>Sat</th><th>Dec 14</th>
+            <td colspan="2" style=""><strong>Assignment 2 Due</strong><br>Submit your Toy Example</td>
+        </tr>
+        <tr class="gen"><th>Sun</th><th>Dec 15</th>
+            <td colspan="2" style=""><strong>Feedback Due</strong><br>Provide feedback on your peers' Toy Examples</td>
+        </tr>
+
+        <tr class="week-separator">
+            <td colspan="4">Week 3: Build a Website</td>
+        </tr>
+        <tr class="lec"><th>M </th><th>Dec 16</th>
+            <td>
+                <ul>
+                    <li><strong>Assignment 3 released:</strong>
+                        <ul>
+                            <li>Coming Soon</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr class="lec"><th>W </th><th>Dec 18</th><td>
+            <ul>
+                <li><strong>Lecture #3:</strong>
+                    <ul>
+                        <li><strong>RSVP:</strong> Coming Soon</li>
+                        <li><strong>Watch Recording:</strong> Coming Soon</li>
+                    </ul>
+                </li>
+            </ul>
+        </td><td></td></tr>
+        <tr class="lec"><th>Th</th><th>Dec 19</th><td>
+            <ul>
+                <li><strong>Lab #3</strong>
+                    <ul>
+                        <li><strong>RSVP:</strong> Coming Soon</li>
+                        <li><strong>Watch Recording:</strong> Coming Soon</li>
+                    </ul>
+                </li>
+            </ul>
+        </td><td></td></tr>
+        <tr class="due"><th>Sat</th><th>Dec 21</th>
+            <td colspan="2" style=""><strong>Assignment 3 Due</strong></td>
+        </tr>
+        <tr class="gen"><th>Sun</th><th>Dec 22</th>
+            <td colspan="2" style=""><strong>Feedback Due</strong></td>
+        </tr>
+
+        <tr class="week-separator">
+            <td colspan="4">Week 4: Add an Evaluation Mechanism</td>
+        </tr>
+        <tr class="lec"><th>M </th><th>Dec 23</th>
+            <td>
+                <ul>
+                    <li><strong>Assignment 4 released:</strong>
+                        <ul>
+                            <li>Coming Soon</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr class="lec"><th>W </th><th>Dec 25</th><td>
+            <ul>
+                <li><strong>Lecture #4</strong>
+                    <ul>
+                        <li><strong>RSVP:</strong> Coming Soon</li>
+                        <li><strong>Watch Recording:</strong> Coming Soon</li>
+                    </ul>
+                </li>
+            </ul>
+        </td><td></td></tr>
+        <tr class="lec"><th>Th</th><th>Dec 26</th><td>
+            <ul>
+                <li><strong>Lab #4</strong>
+                    <ul>
+                        <li><strong>RSVP:</strong> Coming Soon</li>
+                        <li><strong>Watch Recording:</strong> Coming Soon</li>
+                    </ul>
+                </li>
+            </ul>
+        </td><td></td></tr>
+        <tr class="due"><th>Sat</th><th>Dec 28</th>
+            <td colspan="2" style=""><strong>Assignment 4 Due</strong></td>
+        </tr>
+        <tr class="gen"><th>Sun</th><th>Dec 29</th>
+            <td colspan="2" style=""><strong>Feedback Due</strong></td>
+        </tr>
+
+        <tr class="week-separator">
+            <td colspan="4">Week 5: Stress Test Your System</td>
+        </tr>
+        <tr class="lec"><th>M </th><th>Dec 30</th>
+            <td>
+                <ul>
+                    <li><strong>Assignment 5 released:</strong>
+                        <ul>
+                            <li>Coming Soon</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr class="lec"><th>W </th><th>Jan 1</th><td>
+            <ul>
+                <li><strong>Lecture #5</strong>
+                    <ul>
+                        <li><strong>RSVP:</strong> Coming Soon</li>
+                        <li><strong>Watch Recording:</strong> Coming Soon</li>
+                    </ul>
+                </li>
+            </ul>
+        </td><td></td></tr>
+        <tr class="lec"><th>Th</th><th>Jan 2</th><td>
+            <ul>
+                <li><strong>Lab #5</strong>
+                    <ul>
+                        <li><strong>RSVP:</strong> Coming Soon</li>
+                        <li><strong>Watch Recording:</strong> Coming Soon</li>
+                    </ul>
+                </li>
+            </ul>
+        </td><td></td></tr>
+        <tr class="due"><th>Sat</th><th>Jan 4</th>
+            <td colspan="2" style=""><strong>Assignment 5 Due</strong></td>
+        </tr>
+        <tr class="gen"><th>Sun</th><th>Jan 5</th>
+            <td colspan="2" style=""><strong>Feedback Due</strong></td>
+        </tr>
+
+        <tr class="week-separator">
+            <td colspan="4">Week 6: Final Demos & Presentations</td>
+        </tr>
+        <tr class="lec"><th>M </th><th>Jan 6</th>
+            <td>
+                <ul>
+                    <li><strong>Assignment 6 released:</strong>
+                        <ul>
+                            <li>Coming Soon</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+       
+
+        <!-- Continue similarly for the remaining weeks -->
+    </tbody>
+</table>
+
+    </section>
+
+    <section id="overview">
+        <h2>Overview</h2>
+        <p>Vancouver AI Space 001 is an intensive 6-week online program designed to accelerate your AI learning journey. While demanding, this program guarantees significant growth in your AI capabilities and project-building skills for those willing to put in the work.</p>
+        
+        <p><strong>This program offers:</strong></p>
+        <ul>
+            <li>Intensive hands-on experience building real AI projects from ideation to implementation</li>
+            <li>Direct mentorship from research and industry experts who are active in the field</li>
+            <li>Structured learning path with weekly lectures and hands-on labs</li>
+            <li>Flexible online environment where you can work at your own pace solo or with a team</li>
+            <li>Networking opportunities with other passionate AI builders and practitioners</li>
+        </ul>
+
+        <p><strong>What to Expect:</strong></p>
+        <ul>
+            <li>Fast-paced, project-focused learning environment</li>
+            <li>Assignments that build practical AI development skills</li>
+            <li>Regular feedback and guidance from experienced mentors</li>
+            <li>Strong emphasis on learning by doing</li>
+            <li>Supportive community of fellow learners</li>
+        </ul>
+
+        <p><strong>Program Benefits:</strong></p>
+        <ul>
+            <li>No in-person attendance required</li>
+            <li>Free of charge (Your Commitment is what is Needed)</li>
+            <li>Community-driven learning experience</li>
+            <li>Practical, portfolio-ready projects</li>
+            <li>Lasting connections with the AI community</li>
+        </ul>
+
+        <p><em>Note: While this program is intensive and requires dedication, participants who fully engage with the material and complete the assignments can expect significant improvement in their AI development capabilities.</em></p>
+    </section>
+
+    <section id="certificate">
+        <h2>Certificate of Completion</h2>
+        <p>To earn your Vancouver AI Space 001 Certificate of Completion, you must achieve a minimum overall grade of 70%. The grading scheme is structured as follows:</p>
+
+        <p><b>Weekly Grading Components</b>:</p>
+        <ul>
+            <li><strong>Main Assignment (60% each week)</strong>
+                <ul>
+                    <li>Project-based assignments</li>
+                    <li>Late submissions receive a 40% grade instead of 60%</li>
+                    <li>Due every Saturday</li>
+                </ul>
+            </li>
+            <li><strong>Peer Feedback (40% each week)</strong>
+                <ul>
+                    <li>Provide constructive feedback on other participants' work</li>
+                    <li>Due every Sunday</li>
+                </ul>
+            </li>
+            <li><strong>Bonus Assignment (25% extra each week)</strong>
+                <ul>
+                    <li>Optional additional challenges</li>
+                    <li>Opportunity to boost your weekly grade</li>
+                </ul>
+            </li>
+        </ul>
+
+        <p><b>Special Recognition</b>:</p>
+        <ul>
+            <li>The top 3 performing participants will receive special awards</li>
+            <li>Top performers will be featured on our website and social media channels</li>
+            <li>Recognition certificates will highlight exceptional achievement</li>
+        </ul>
+
+        <p><em>Note: A minimum grade of 70% is required to pass the course and receive the certificate of completion.</em></p>
+    </section>
+
+    <section id="prereqs">
+        <h2>Prerequisites</h2>
+        <p><strong>Who Should Apply:</strong></p>
+        <ul>
+            <li>Developers, entrepreneurs, or students passionate about building an AI-driven project.</li>
+        </ul>
+
+        <p><strong>Skills Needed:</strong></p>
+        <ul>
+            <li>A good grasp of Python</li>
+        </ul>
+
+        <p><strong>Flexible Schedule:</strong></p>
+        <ul>
+            <li>Works well for those with full-time jobs or full-time studies</li>
+            <li>Work at your own pace, online, during nights and weekends</li>
+        </ul>
+    </section>
+
+    <section id="resources">
+        <h2>Resources</h2>
+        
+        <p><strong>Want to Learn More?</strong> Here are some great places to start:</p>
+        
+        <ul>
+            <li><strong>Online Courses:</strong> 
+                <a href="https://www.deeplearning.ai/">DeepLearning.AI</a>
+                <br>
+                <em>Perfect for structured learning with hands-on projects and clear explanations</em>
+            </li>
+            
+            <li><strong>Stay Up to Date:</strong> 
+                <a href="https://www.lastweekinai.com/">Last Week in AI Podcast</a>
+                <br>
+                <em>A weekly podcast that breaks down AI news in simple terms, great for your commute.</em>
+            </li>
+            
+            <li><strong>Watch and Learn:</strong> 
+                <a href="https://www.youtube.com/@YannicKilcher">Yannic Kilcher's YouTube Channel</a>
+                <br>
+                <em>Explains complex AI topics in an engaging way</em>
+            </li>
+        </ul>
+
+        <p>These resources are beginner-friendly and will help you stay connected with the AI community.</p>
+    </section>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const tocLinks = document.querySelectorAll('#toc li a');
+        const sections = document.querySelectorAll('section');
+
+        function setActiveLink() {
+            let index = sections.length;
+
+            while (--index && window.scrollY + window.innerHeight / 2 < sections[index].offsetTop) {}
+
+            tocLinks.forEach((link) => link.classList.remove('active'));
+            if (index >= 0) {
+                tocLinks[index].classList.add('active');
+            }
+        }
+
+        setActiveLink();
+        window.addEventListener('scroll', setActiveLink);
+
+        tocLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                const offset = 60; // Adjust this value to scroll just above the header
+                const topPosition = targetSection.offsetTop - offset;
+
+                window.scrollTo({
+                    top: topPosition,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    });
+    </script>
+
+</body></html>
+    });
+    </script>
+
+</body></html>
